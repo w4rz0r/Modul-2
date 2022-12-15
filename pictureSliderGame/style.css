@@ -1,0 +1,50 @@
+BODY { 
+    background: #555555;
+    }
+
+    button {
+        background-color: rgb(124, 2, 106);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+    
+    .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9, 
+    .tile10, .tile11, .tile12, .tile13, .tile14, .tile15, .tile16, .tile17, 
+    .tile18, .tile19, .tile20, .tile21, .tile22, .tile23, .tile24 {
+      display: table-cell;
+      width: 197px;
+      height: 197px;
+      border: 1px solid rgb(124, 2, 106);
+      background: url("./images/slider.png");
+      cursor: pointer;
+    }
+    
+    .tile1 {background-position: 1203px 788px;}
+    .tile2 {background-position: 1006px 788px;}
+    .tile3 {background-position: 809px 788px;}
+    .tile4 {background-position: 612px 788px;}
+    .tile5 {background-position: 415px 788px;}
+    .tile6 {background-position: 218px 788px;}
+    .tile7 {background-position: 1203px 591px;}
+    .tile8 {background-position: 1006px 591px;}
+    .tile9 {background-position: 809px 591px;}
+    .tile10 {background-position: 612px 591px;}
+    .tile11 {background-position: 415px 591px;}
+    .tile12 {background-position: 218px 591px;}
+    .tile13 {background-position: 1203px 394px;}
+    .tile14 {background-position: 1006px 394px}
+    .tile15 {background-position: 809px 394px}
+    .tile16 {background-position: 612px 394px}
+    .tile17 {background-position: 415px 394px}
+    .tile18 {background-position: 218px 394px}
+    .tile19 {background-position: 1203px 197px}
+    .tile20 {background-position: 1006px 197px}
+    .tile21 {background-position: 809px 197px}
+    .tile22 {background-position: 612px 197px}
+    .tile23 {background-position: 415px 197px}
+    .tile24 {background: rgb(124, 2, 106); cursor: default;}
